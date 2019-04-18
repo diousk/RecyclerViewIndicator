@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#1c1c17"
     tools:context="com.kingfisher.sample.MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
@@ -17,16 +18,17 @@
 
     <com.kingfisher.easyviewindicator.RecyclerViewIndicator
         android:id="@+id/recyclerViewIndicator"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="20dp"
-        app:avi_animation_enable="true"
+        app:avi_animation_enable="false"
         app:avi_drawable="@drawable/blue_radius"
         app:avi_drawable_unselected="@drawable/gray_radius"
         app:avi_height="10dp"
-        app:avi_margin="10dp"
-        app:avi_width="10dp"
-        app:layout_constraintTop_toBottomOf="@+id/recyclerView">
-
+        app:avi_margin="4dp"
+        app:avi_width="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/recyclerView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
     </com.kingfisher.easyviewindicator.RecyclerViewIndicator>
 
 

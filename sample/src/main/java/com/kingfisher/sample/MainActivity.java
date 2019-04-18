@@ -42,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         setupLinearRecyclerViewHorizontal();
-        setupLinearRecyclerViewVertial();
-        setupGridRecyclerView();
+//        setupLinearRecyclerViewVertial();
+//        setupGridRecyclerView();
     }
 
     private void setupGridRecyclerView() {
@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public int getItemCount() {
-            return 10;
+            return 5;
         }
 
         class ViewHolder extends RecyclerView.ViewHolder {
