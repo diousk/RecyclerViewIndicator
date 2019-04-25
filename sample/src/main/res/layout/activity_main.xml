@@ -18,16 +18,16 @@
 
     <com.kingfisher.easyviewindicator.RecyclerViewIndicator
         android:id="@+id/recyclerViewIndicator"
-        android:layout_width="200dp"
+        android:layout_width="wrap_content"
         android:layout_height="20dp"
-        app:avi_animation_enable="false"
+        android:layout_marginEnd="24dp"
+        app:avi_animation_enable="true"
         app:avi_drawable="@drawable/blue_radius"
         app:avi_drawable_unselected="@drawable/gray_radius"
         app:avi_height="10dp"
         app:avi_margin="4dp"
-        app:avi_width="20dp"
+        app:avi_width="12dp"
         app:layout_constraintBottom_toBottomOf="@+id/recyclerView"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
     </com.kingfisher.easyviewindicator.RecyclerViewIndicator>
 
